@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE SHOP | CART</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script src="cart.js"></script>
+
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="band-name band-name-large">THE SHOP</h1>
+        <nav class="main-nav nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="store.html">STORE</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i>(<span class="cart-item-num">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="container content-section container-cart">
+        <h2 class="section-header section-cart-header">SHOPPING CART</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">ITEM</span>
+            <span class="cart-price cart-header cart-column">PRICE</span>
+            <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+        </div>
+        <div class="cart-items">
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Total</strong>
+            <span class="cart-total-price">$0</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer-container">
+            <div id="footer">
+                <div class="company">
+                    <h3>PRODUCT</h3>
+                    <ul class="company-list">
+                        <li>Business</li>
+                        <li>Compare</li>
+                        <li>Mobile</li>
+                        <li>Pricing</li>
+                        <li>Features</li>
+                    </ul>
+                </div>
+                <div class="company">
+                    <h3>COMPANY</h3>
+                    <ul class="company-list">
+                        <li>About Us</li>
+                        <li>Blog</li>
+                        <li>News</li>
+                        <li>Jobs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <divc class="social">
+                    <h3 >STAY CONNECTED</h3>
+                    <div class="footer-icons">
+                        <i class="fa fa-facebook-square" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-twitter-square" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-square" aria-hidden="true"></i>
+                    </div>
+                    
+                    <h3>MAILING LIST</h3>
+                    <input type="text" class="mailing" name="email" placeholder="Email Address" autocomplete="off">
+                    <button type="submit" class="footer-btn">JOIN</button>
+                </divc>
+            </div>
+        </div>
+        <div class="copyrights">
+            <h4>Copyright 2020 THE SHOP. All Rights Reserved. Powered by Github Pages</h4>
+        </div>
+    </footer>
+</body>
+</html>
